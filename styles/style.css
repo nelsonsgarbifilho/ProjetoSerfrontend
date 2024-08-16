@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ccc;
+}
+
+.hero {
+    background-image: url(../imagens/bg-3.jpg);
+    background-size: cover;
+    background-position: right center;
+    width: 100%;
+    height: 750px;
+    color: white;
+}
+
+nav {
+    text-align: right;
+}
+
+.menu {
+    list-style-type: none;
+    margin-right: 50px;
+
+
+}
+
+.menu li {
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.hero nav .menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.hero nav .menu li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.hero-content {
+    width: 80%;
+    margin: 250px auto 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    /* text-shadow: horizontal(direita +, esquerda -) vertical(p/ cima -, p/ baixo +) esfumaçamento color; */
+}
+
+.about {
+    margin: 50px auto 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* rgba(red, green, blue, alpha(transparência, vai de 0 a 1)); */
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.articles {
+    padding-top: 40px;
+}
+
+.articles article {
+    display: block;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+.articles article h2 {
+    background-color: #eee;
+    font-weight: normal;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.articles article p {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px;
+    background-color: lightgray;
+    display: block;
+    margin-left: auto;
+    width: fit-content; /* ajusta o tamanho de acordo com o conteúdo */
+    font-size: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+}
+
+/* o seletor "a.btn" seleciona as tags a que possuem a classe btn (diferente de "a .btn") */
+
+.footer-main {
+    background-color: gray;
+    height: 80px;
+    text-align: center;
+    color: white;
+
+}
+
+.footer-main .copy {
+    padding-top: 32px;
+    font-size: 12px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
